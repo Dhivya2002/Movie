@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Buff Central - Marvel Cinematic Universe</title>
+    <link rel="stylesheet" href="stylecss.css">
+</head>
+<body>
+    <header>
+        <h1>Movie Buff Central - Marvel Cinematic Universe</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#characters">Characters</a></li>
+                <li><a href="#trailers">Trailers</a></li>
+                <li><a href="#quote">Quote of the Day</a></li>
+                <li><a href="#quiz">Trivia Quiz</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to the Marvel Cinematic Universe Fan Page</h2>
+        <img src="C:\Users\HP\Downloads\mcu.jpeg" alt="Marvel Cinematic Universe Poster" class="poster">
+        <p>Explore the epic world of Marvel with detailed character bios, movie trailers, quotes, and a fun trivia quiz!</p>
+    </section>
+
+    <section id="characters">
+        <h2>Character Bios</h2>
+        <div class="character">
+            <img src="C:\Users\HP\Downloads\ironman.jpeg" alt="Iron Man">
+            <h3>Iron Man</h3>
+            <p>Tony Stark is a genius billionaire who becomes the armored superhero known as Iron Man.</p>
+            <p>Interesting fact: Tony Stark was one of the first Marvel characters to appear in the MCU.</p>
+        </div>
+        <div class="character">
+            <img src="C:\Users\HP\Downloads\america.jpeg" alt="Captain America">
+            <h3>Captain America</h3>
+            <p>Steve Rogers is a super-soldier who fights for justice as Captain America.</p>
+            <p>Interesting fact: Captain America’s shield is made from vibranium, the rare metal from Wakanda.</p>
+        </div>
+        <!-- Add more characters as needed -->
+    </section>
+
+    <section id="trailers">
+        <h2>Movie Trailers</h2>
+        <div class="trailer">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/TcMBFSGVi1c?si=wHig1rPXbhoVju1d" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p>Avengers: Endgame Trailer</p>
+        </div>
+        <div class="trailer">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/d96cjJhvlMA?si=PSezJxAZwUxfl69m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p>Guardians of the Galaxy Trailer</p>
+        </div>
+    </section>
+
+    <section id="quote">
+        <h2>Quote of the Day</h2>
+        <p id="quote-text"></p>
+    </section>
+
+    <section id="quiz">
+        <h2>Trivia Quiz</h2>
+        <div id="quiz-container">
+            <p id="question"></p>
+            <button onclick="checkAnswer('A')">Answer A</button>
+            <button onclick="checkAnswer('B')">Answer B</button>
+            <button onclick="checkAnswer('C')">Answer C</button>
+            <button onclick="checkAnswer('D')">Answer D</button>
+            <p id="feedback"></p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
